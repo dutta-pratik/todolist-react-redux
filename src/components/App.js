@@ -6,9 +6,15 @@ import SideBar from "./SideBar"
 function App() {
   return (
     <div className="App">
-      <AddTodo />
-      <VisibleTodoList />
-      <SideBar/>
+      <div className="AddTask">
+        <AddTodo />
+      </div>
+      <div className="TaskList">
+        <VisibleTodoList />
+      </div>
+      <div className="SideBar">
+        <SideBar/>
+      </div>
     </div>
   );
 }

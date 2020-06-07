@@ -7,6 +7,7 @@ const Link = ({active, onClick, children}) => (
         style={{
         marginLeft: '4px'
         }}
+        className = "link"
     >
         {children}
     </button>

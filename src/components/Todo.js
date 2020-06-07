@@ -6,9 +6,13 @@ const Todo = ({ onClick, completed, text }) => (
         style={{
             textDecoration: completed ? "line-through" : "none"
         }}
+
+        className = "list"
     >
         {text}
+        <hr/>
     </li>
+    
 );
 
 export default Todo;
